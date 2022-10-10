@@ -1,0 +1,30 @@
+.head{
+ font-size: 10rem;
+ background: linear-gradient(to right, rgb(223, 183, 24), rgb(120, 181, 202));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: fade 1s ease-in-out 1s;
+  pointer-events: none;
+  opacity: 0;
+}
+
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.comment{
+    color:gold;
+    /* position: flex; */
+    animation: reverse;
+    display: flex;
+    transform: scaleX(-1);
+    overflow: auto;
+    resize: both;
+}
+
+
